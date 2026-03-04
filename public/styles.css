@@ -1,0 +1,12 @@
+body { font-family: Arial, sans-serif; margin: 0; background: #f5f6fb; }
+.topbar { display: flex; justify-content: space-between; padding: 12px 16px; background: #1f2a44; color: #fff; }
+.topbar h1 { margin: 0; font-size: 18px; }
+.badges span { margin-left: 6px; background: #31456f; padding: 4px 8px; border-radius: 12px; font-size: 12px; }
+main { display: grid; grid-template-columns: 220px 1fr 340px; gap: 12px; padding: 12px; }
+aside { display: flex; flex-direction: column; gap: 8px; }
+aside button { padding: 10px; text-align: left; border: none; border-radius: 8px; background: #fff; cursor: pointer; }
+section { background: #fff; border-radius: 10px; padding: 12px; min-height: 70vh; }
+.inspector pre { white-space: pre-wrap; font-size: 12px; background: #f2f3f8; border-radius: 8px; padding: 10px; }
+label, input, button, select, textarea { display: block; margin-top: 8px; width: 100%; }
+button.run { margin-top: 12px; background: #2f6feb; color: white; border: none; padding: 10px; border-radius: 6px; }
+.output { margin-top: 10px; background: #f7f9ff; border: 1px solid #d9e1ff; padding: 8px; border-radius: 6px; }
