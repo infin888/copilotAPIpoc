@@ -1,0 +1,11 @@
+{
+  "name": "copilot-api-showcase-portal",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "lint": "node --check server.js && node --check src/server.js && node --check public/app.js"
+  }
+}

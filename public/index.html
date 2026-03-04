@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Copilot API Showcase Portal</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <h1>Copilot API Showcase Portal</h1>
+        <small id="identity">Signed in: demo.user@contoso.com | Tenant: Contoso</small>
+      </div>
+      <div class="badges"><span>User</span><span>Admin</span><span>Compliance</span></div>
+    </header>
+    <main>
+      <aside>
+        <button data-module="chat">Chat</button>
+        <button data-module="search">Search</button>
+        <button data-module="retrieval">Retrieval</button>
+        <button data-module="meetings">Meeting Insights</button>
+        <button data-module="export">Compliance Export</button>
+        <button data-module="audit">Real-time Audit Feed</button>
+        <button data-module="reports">Adoption Reports</button>
+        <button data-module="packages">Package Catalog</button>
+      </aside>
+      <section>
+        <h2 id="module-title">Chat</h2>
+        <div id="module-content"></div>
+      </section>
+      <section class="inspector">
+        <h3>Call Inspector</h3>
+        <pre id="inspector"></pre>
+      </section>
+    </main>
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>
